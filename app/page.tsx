@@ -79,7 +79,7 @@ export default function HomePage() {
             <Link href="#">
               <Image priority src={appStoreIcon} alt="Download on the App Store" />
             </Link>
-            <Link href="#">
+            <Link href="https://play.google.com/store/apps/details?id=com.citizenshiptestapp" target="_blank">
               <Image priority src={playStoreIcon} alt="Get It on Google Play" />
             </Link>
           </div>
