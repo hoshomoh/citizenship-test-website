@@ -76,10 +76,16 @@ export default function HomePage() {
             succeed with confidence.
           </p>
           <div className="flex flex-col items-center gap-2 *:w-full sm:flex-row sm:*:w-auto">
-            <Link href="#">
+            <Link
+              href="https://apps.apple.com/de/app/citizenship-test-prep/id6749445598"
+              target="_blank"
+            >
               <Image priority src={appStoreIcon} alt="Download on the App Store" />
             </Link>
-            <Link href="https://play.google.com/store/apps/details?id=com.citizenshiptestapp" target="_blank">
+            <Link
+              href="https://play.google.com/store/apps/details?id=com.citizenshiptestapp"
+              target="_blank"
+            >
               <Image priority src={playStoreIcon} alt="Get It on Google Play" />
             </Link>
           </div>
